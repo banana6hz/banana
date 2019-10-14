@@ -1,6 +1,13 @@
 <template>
   <div class="hello">
+    <el-carousel :interval="5000" arrow="always">
+      <el-carousel-item v-for="item in carouselImg" :key="item">
+        <img :alt="item.alt" :src="item.src">
+      </el-carousel-item>
+    </el-carousel>
     <h1>{{ msg }}</h1>
+    <p><img alt="Vue logo" src="../assets/logo.png"></p>
+    <el-button>我我我</el-button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -35,24 +42,37 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data() {
+    return{
+      carouselImg: [
+        {alt: '1', src: require('../../static/img/logo.png')},
+        {alt: '2', src: require('../../static/img/logo.png')},
+        {alt: '3', src: require('../../static/img/logo.png')}
+      ]
+    }
   }
+  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 a {
   color: #42b983;
+}
+.el-carousel__item {
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
 }
 </style>
