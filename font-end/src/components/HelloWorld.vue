@@ -8,6 +8,9 @@
     <h1>{{ msg }}</h1>
     <p><img alt="Vue logo" src="../assets/logo.png"></p>
     <el-button>我我我</el-button>
+    <div class="div1">
+      <div class="div2">想吃烤鸡呀</div>
+    </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -74,5 +77,17 @@ a {
 }
 .el-carousel__item:nth-child(2n+1) {
   background-color: #d3dce6;
+}
+.div1 {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width:fit-content;
+  margin:0 auto;
+  width: 200px;
+  height: 200px;
+}
+.div2 {
+  width: 100px;
+  height: 100px;
 }
 </style>
