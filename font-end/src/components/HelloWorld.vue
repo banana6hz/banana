@@ -9,7 +9,7 @@
     <p><img alt="Vue logo" src="../assets/logo.png"></p>
     <el-button>我我我</el-button>
     <div class="div1">
-      <div class="div2">想吃烤鸡呀</div>
+      <div class="div2" style="text-algin:center;margin:0 auto;">想吃烤鸡呀</div>
     </div>
   </div>
 </template>
@@ -23,9 +23,9 @@ export default {
   data() {
     return{
       carouselImg: [
-        {alt: '1', src: require('../../static/img/logo.png')},
-        {alt: '2', src: require('../../static/img/logo.png')},
-        {alt: '3', src: require('../../static/img/logo.png')}
+        {alt: '1', src: require('../../static/img/banner1.jpg')},
+        {alt: '2', src: require('../../static/img/banner2.jpg')},
+        // {alt: '3', src: require('../../static/img/logo.png')}
       ]
     }
   }
@@ -63,5 +63,10 @@ a {
 .div2 {
   width: 100px;
   height: 100px;
+}
+</style>
+<style lang="scss">
+.el-carousel__container{
+  height:500px !important;
 }
 </style>
