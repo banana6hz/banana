@@ -6,6 +6,9 @@ const router = require('koa-router')()// 需要注意的是，在导入 koa-rout
 router.get('/', async (ctx, next) => {
  ctx.type = 'text/html';
  ctx.body = fs.createReadStream('./views/index.html');
+//  await ctx.render("index",{
+//     title:"nodeWeb 首页"
+//   })
 });
  
 module.exports = router
