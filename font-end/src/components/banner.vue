@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <el-carousel :interval="5000" arrow="always">
-      <el-carousel-item v-for="item in carouselImg" :key="item">
+      <el-carousel-item v-for="item in carouselImg" :key="item.alt">
         <img :alt="item.alt" :src="item.src">
       </el-carousel-item>
     </el-carousel>
@@ -13,10 +13,10 @@ export default {
   data() {
     return{
       carouselImg: [
-        {alt: '1', src: require('../../static/img/banner1.jpg')},
-        {alt: '2', src: require('../../static/img/banner2.jpg')},
-        {alt: '3', src: require('../../static/img/banner3.png')},
-        {alt: '4', src: require('../../static/img/banner4.png')}
+        {alt: 'banner1', src: require('../../static/img/banner1.jpg')},
+        {alt: 'banner2', src: require('../../static/img/banner2.jpg')},
+        {alt: 'banner3', src: require('../../static/img/banner3.png')},
+        {alt: 'banner4', src: require('../../static/img/banner4.png')}
       ]
     }
   }
