@@ -9,7 +9,7 @@
 <script>
  import axios from 'axios'
 // 导入假数据接口
-import mockdata from '../mock.js'
+import mockdata from '@/mock.js'
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 import navbar from '@/components/navbar.vue'
@@ -21,12 +21,15 @@ export default {
     navbar
   },
   methods:{
-    mockDate(){
+    mockdate(){
       axios.get('/msg1').then(response => {
           let res = response.data
           console.log(res)
       })
     }
+  },
+  mounted:function(){
+    this.mockDate()
   }
 }
 </script>

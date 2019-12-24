@@ -16,7 +16,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-.msg{
-    margin:20px auto;
-}
+    .msg{
+        margin:20px auto;
+    }
 </style>

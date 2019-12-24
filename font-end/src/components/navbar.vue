@@ -2,7 +2,7 @@
     <div class="navbar">
         <ul class="navbar_ul">
             <li class="navbar_item" @click="goFish()">酸菜鱼</li>
-            <li class="navbar_item">麻辣烫</li>
+            <li class="navbar_item" @click="goHotpop()">麻辣烫</li>
             <li class="navbar_item">鸡排</li>
             <li class="navbar_item">鸭脖</li>
             <li class="navbar_item">烧烤</li>
@@ -21,6 +21,9 @@ export default {
   methods: {
     goFish() {
         this.$router.push('/about')
+    },
+    goHotpop(){
+        this.$router.push('/charge')
     }
   }
 }
