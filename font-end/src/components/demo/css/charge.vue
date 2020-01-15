@@ -210,7 +210,7 @@ li {
         transform: translate(-50%, -50%);
         width: $width;
         height: $width;
-        animation: moveToTop #{random(6) + 3}s ease-in-out -#{random(5000)/1000}s infinite;
+        animation: moveToTop #{random(6) + 3}s ease-in-out -#{random(5000)/1000}s infinite;//#{}在字符串中加入变量，也可加入方法
     }
 }
 
