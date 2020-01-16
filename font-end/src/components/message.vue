@@ -1,19 +1,19 @@
 <template>
     <div class="msg">
-        <div class="msg_list">
+        <!-- <div class="msg_list">
             <h4>flex-grow:0不进行放大</h4>
             <ul class="msg_list_1">
                 <li style="flex-grow:0">flex-grow:0</li>
                 <li style="flex-grow:0">flex-grow:0</li>
                 <li style="flex-grow:0">flex-grow:0</li>
                 <li style="flex-grow:0">flex-grow:0</li>
-                <!-- <li>5</li> -->
-                <!-- <li>6</li>
+                <li>5</li>
+                <li>6</li>
                 <li>7</li>
                 <li>8</li>
                 <li>9</li>
                 <li>10</li>
-                <li>11</li> -->
+                <li>11</li>
             </ul>
         </div>
         <div class="msg_list">
@@ -23,13 +23,13 @@
                 <li style="flex-grow:1">flex-grow:1</li>
                 <li style="flex-grow:1">flex-grow:1</li>
                 <li style="flex-grow:1">flex-grow:1</li>
-                <!-- <li>5</li> -->
-                <!-- <li>6</li>
+                <li>5</li>
+                <li>6</li>
                 <li>7</li>
                 <li>8</li>
                 <li>9</li>
                 <li>10</li>
-                <li>11</li> -->
+                <li>11</li>
             </ul>
         </div>
         <div class="msg_list">
@@ -39,12 +39,12 @@
                 <li style="flex-grow:1">flex-grow:1</li>
                 <li style="flex-grow:2">flex-grow:2</li>
                 <li style="flex-grow:0">flex-grow:0</li>
-                <!-- <li>6</li>
+                <li>6</li>
                 <li>7</li>
                 <li>8</li>
                 <li>9</li>
                 <li>10</li>
-                <li>11</li> -->
+                <li>11</li>
             </ul>
         </div>
         <div class="msg_list">
@@ -55,15 +55,15 @@
                 <li>3</li>
                 <li>4</li>
                 <li>5</li>
-                <!-- <li>6</li>
+                <li>6</li>
                 <li>7</li>
                 <li>8</li>
                 <li>9</li>
                 <li>10</li>
-                <li>11</li> -->
+                <li>11</li>
             </ul>
         </div>
-        <!-- <div class="msg_list">
+        <div class="msg_list">
             <h4>space-between</h4>
             <ul class="msg_list_5">
                 <li>1</li>
@@ -94,8 +94,8 @@
                 <li>10</li>
                 <li>11</li>
             </ul>
-        </div> -->
-        <!-- <div class="msg_list_row_reverse">
+        </div>
+        <div class="msg_list_row_reverse">
             <ul>
                 <li>row_reverse_1</li>
                 <li>row_reverse_2</li>
@@ -115,8 +115,8 @@
                 <li>column_reverse_2</li>
                 <li>column_reverse_3</li>
             </ul>
-        </div> -->
-        <!-- <div class="msg_input">
+        </div>
+        <div class="msg_input">
             <input type="text" placeholder="踩...">
         </div> -->
     </div>
@@ -129,10 +129,10 @@ export default {
 <style scoped lang="scss">
     .msg{
         margin:20px auto;
-        margin-bottom: 800px;
         width:500px;
         border:1px solid #e31;
         padding:10px;
+        min-height:150px;
     }
     .msg_list ul{
         display:flex;

@@ -1,8 +1,10 @@
 <template>
-  <div class="home">
-    <footer></footer>
+  <div id="home">
     <navbar></navbar>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="myCon">
+      <banner></banner>
+      <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </div>
     <myFooter></myFooter>
   </div>
 </template>
@@ -13,6 +15,7 @@
 import mockdata from '@/mock.js'
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+import banner from '@/components/banner.vue'
 import navbar from '@/components/navbar.vue'
 import myFooter from '@/components/footer.vue'
 
@@ -21,6 +24,7 @@ export default {
   components: {
     HelloWorld,
     navbar,
+    banner,
     myFooter
   },
   methods:{
@@ -44,3 +48,7 @@ export default {
   }
 }
 </script>
+<style scoped lang="scss">
+.myCon{max-width:1170px;margin:80px auto 60px;}
+</style>
+

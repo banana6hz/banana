@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <div class="myFooter">
         <div class="footerCon">
             <div class="footerLeft">
                 <ul>
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    .footer{background:rgb(51, 52, 53);color:#fff;}
+    .myFooter{background:#2d3237;color:#fff;bottom:0;width:100%;}
     .footerCon{padding:20px 10%;display:flex;justify-content:space-between;align-items: center;}
     .footerLeft li{margin-right:10px;}
 </style>

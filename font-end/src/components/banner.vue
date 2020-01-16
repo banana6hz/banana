@@ -13,8 +13,8 @@ export default {
   data() {
     return{
       carouselImg: [
-        {alt: 'banner1', src: require('../../static/img/banner1.jpg')},
-        {alt: 'banner2', src: require('../../static/img/banner2.jpg')},
+        {alt: 'banner1', src: require('../../static/img/banner/banner_1.png')},
+        {alt: 'banner2', src: require('../../static/img/banner/banner_7.jpg')},
         {alt: 'banner3', src: require('../../static/img/banner3.png')},
         {alt: 'banner4', src: require('../../static/img/banner4.png')}
       ]
