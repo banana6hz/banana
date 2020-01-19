@@ -28,6 +28,6 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-    .navbar_ul{box-shadow:0px 2px 4px rgb(217, 217, 245);position:fixed;top:0;left:0;z-index:6;width:100%;background-color:#fff;color:#000;height:60px;width:100%;display:flex;justify-content:space-around;}
-    .navbar_item{line-height: 60px;font-size:16px;}
+    .navbar_ul{box-shadow:0px 2px 4px #ececf1;position:fixed;top:0;left:0;z-index:6;width:100%;background-color:#fff;color:#000;height:50px;width:100%;display:flex;justify-content:space-around;}
+    .navbar_item{line-height: 50px;font-size:16px;}
 </style>
