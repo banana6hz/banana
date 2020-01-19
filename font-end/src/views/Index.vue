@@ -2,7 +2,7 @@
     <div id="wrap">
         <div class="myIndex">
             <div class="index_img">
-                <img src="../assets/welcome.gif" alt="welcome">
+                <img src="../assets/icebear.jpg" alt="welcome">
             </div>
             <div class="index_text">
                 <p class="index_logo"><img src="../assets/bang.png" alt=""></p>
@@ -36,7 +36,7 @@ export default {
 .index_img{
     width:45%;
     img{
-        max-width: 100%;
+        max-width: 84%;
         height: auto;
         vertical-align: bottom;
     }
@@ -48,7 +48,7 @@ export default {
     box-sizing: border-box;
     position: relative;
     .index_logo{position: absolute;right:40px;top:0px;}
-    h1{font-family:Georgia, 'Times New Roman', Times, serif;font-size:60px;font-weight: 400;letter-spacing: .08em;}
+    h1{font-family:Georgia, 'Times New Roman', Times, serif;font-size:68px;font-weight: 400;letter-spacing: .08em;}
     p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: .1em;font-size:16px;}
     .btn_more{
         padding:10px 20px;
