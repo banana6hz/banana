@@ -5,7 +5,7 @@
                 <img src="../assets/icebear.jpg" alt="welcome">
             </div>
             <div class="index_text">
-                <p class="index_logo"><img src="../assets/bang.png" alt=""></p>
+                <p class="index_logo"><img src="../assets/bang.gif" alt=""></p>
                 <h1>Welcome</h1>
                 <p>Only if you ask to see me,</p>
                 <p> our meeting will be meaningful to me.</p>
