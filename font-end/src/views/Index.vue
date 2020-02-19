@@ -9,7 +9,7 @@
                 <h1>Welcome</h1>
                 <p>Only if you ask to see me,</p>
                 <p> our meeting will be meaningful to me.</p>
-                <p>Happy Happy New Year ❗ 🎇</p>
+                <p>Happy Happy 2020 ❗ 🎇</p>
                 <!-- <p>https://www.cnblogs.com/zerozq/p/8480157.html</p>
                 <p>http://4db.cc/p/5/</p>
                 <p>http://bm.straightline.jp/</p>
