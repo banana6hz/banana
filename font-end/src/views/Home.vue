@@ -3,7 +3,7 @@
     <navbar></navbar>
     <div class="myCon">
       <banner></banner>
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <slider></slider>
     </div>
     <myFooter></myFooter>
   </div>
@@ -14,7 +14,7 @@
 // 导入假数据接口
 import mockdata from '@/mock.js'
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import slider from '@/components/slider.vue'
 import banner from '@/components/banner.vue'
 import navbar from '@/components/navbar.vue'
 import myFooter from '@/components/footer.vue'
@@ -22,7 +22,7 @@ import myFooter from '@/components/footer.vue'
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    slider,
     navbar,
     banner,
     myFooter

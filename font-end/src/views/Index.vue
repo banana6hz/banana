@@ -7,9 +7,9 @@
             <!-- <div class="index_img">
                 <img src="../assets/icebear.jpg" alt="welcome">
             </div> -->
-            <div class="index_text">
+            <div class="index_txt">
                 <!-- <p class="index_logo"><img src="../assets/bang.gif" alt=""></p> -->
-                <h1>Welcome</h1>
+                <h1 class="index_title">Welcome</h1>
                 <p>Only if you ask to see me,</p>
                 <p> our meeting will be meaningful to me.</p>
                 <p>Happy Happy 2020 ❗ 🎇</p>
@@ -47,14 +47,14 @@ export default {
         vertical-align: bottom;
     }
 }
-.index_text{
+.index_txt{
     padding:80px;
     min-width: 600px;
     box-sizing: border-box;
     position: relative;
     color:#fff;
     .index_logo{position: absolute;right:40px;top:0px;}
-    h1{font-family:Georgia, 'Times New Roman', Times, serif;font-size:120px;font-weight: 400;letter-spacing: .08em;}
+    h1{font-family:Georgia, 'Times New Roman', Times, serif;font-size:120px;font-weight: 400;letter-spacing: .08em;text-shadow:10px 10px 14px rgb(59, 58, 58);}
     p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: .1em;font-size:20px;padding-left:60px;}
     .btn_more{
         padding:10px 20px;
@@ -68,14 +68,17 @@ export default {
         margin:0;
         border:1px solid #fbce015e;
         color:#000;
+        transition: all 0.6s;
         &:hover{
-            animation:mymove 1s 1;
+            // animation:mymove 1s 1;
+            // transform: scale(1.05,1.05);
+            font-size:20px;box-shadow: 3px 3px 6px #dbd9d9;font-weight:500;
         }
     }
-    @keyframes mymove {
-        from{font-size:18px;}
-        to{font-size:20px;box-shadow: 3px 3px 6px #dbd9d9;}
-    }
+    // @keyframes mymove {
+    //     from{font-size:18px;}
+    //     to{font-size:20px;box-shadow: 3px 3px 6px #dbd9d9;}
+    // }
 }
 </style>
 
