@@ -1,5 +1,6 @@
 <template>
     <div class="myFooter">
+        <img src="../../static/JavaScript.pdf" alt="">
         <div class="footerCon">
             <div class="footerLeft">
                 <ul>
